@@ -3,6 +3,10 @@
     "*.css": "postcss"
   },
 
+  "scss.validate": false,
+  "css.validate": false,
+  "less.validate": false,
+
   // Enable the ESlint flat config support
   "eslint.experimental.useFlatConfig": true,
 
@@ -10,10 +14,14 @@
   "prettier.enable": false,
   "editor.formatOnSave": false,
 
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "less", "scss", "postcss"],
+
   // Auto fix
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "never"
+    "source.organizeImports": "never",
+    "source.fixAll.stylelint": "explicit"
   },
 
   // Silent the stylistic rules in you IDE, but still auto fix them
