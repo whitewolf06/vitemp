@@ -14,7 +14,9 @@
     }
   ],
   "plugins": [
-    "stylelint-order"
+    "stylelint-order", "stylelint-prettier"
   ],
-  "rules": {}
+  "rules": {
+    "prettier/prettier": true
+  }
 }
