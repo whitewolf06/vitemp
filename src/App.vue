@@ -5,13 +5,10 @@ export interface Props {
   msg?: string
   labels?: string[]
 }
-const props = withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<Props>(), {
   msg: 'hello',
   labels: () => ['one', 'two'],
 })
-const back1 = '1'
-const back2 = '1'
-const test: string = 'test'
 </script>
 
 <template>
