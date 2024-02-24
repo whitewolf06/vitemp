@@ -10,12 +10,14 @@
     "stylelint": "npx stylelint --fix '**/*.scss'"
   },
   "dependencies": {
+
     "vue": "^3.4.15"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.4",
     "@vitejs/plugin-vue": "^5.0.3",
     "eslint": "^8.56.0",
+    "eslint-plugin-format": "^0.1.0",
     "postcss-html": "^1.6.0",
     "prettier": "^3.2.5",
     "sass": "^1.71.0",
