@@ -14,8 +14,8 @@
   "prettier.enable": false,
   "editor.formatOnSave": false,
 
-  "stylelint.enable": true,
-  "stylelint.validate": ["css", "less", "scss", "postcss", "vue"],
+  // "stylelint.enable": true,
+  // "stylelint.validate": ["css", "less", "scss", "postcss", "vue"],
 
   // Auto fix
   "editor.codeActionsOnSave": {

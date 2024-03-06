@@ -1,5 +1,13 @@
 import { createApp } from 'vue'
-import './style.scss'
+import { createRouter, createWebHistory } from 'vue-router/auto'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import './style.scss'
+
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+})
+
+const app = createApp(App)
+app.use(router)
+app.mount('#app')
