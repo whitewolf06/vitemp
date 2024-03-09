@@ -10,7 +10,7 @@ withDefaults(defineProps<Props>(), {
 })
 // const { width, height } = useElementSize(el)
 // test('123')
-// const count = ref(2)
+const count = ref(2)
 // const doubled = computed(() => count.value * 2)
 const el = ref(null)
 </script>
