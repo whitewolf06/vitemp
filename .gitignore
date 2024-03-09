@@ -7,5 +7,5 @@ dist-ssr
 node_modules
 .idea/
 *.log
-./typed-router.d.ts
-./auto-imports.d.ts
+typed-router.d.ts
+auto-imports.d.ts
