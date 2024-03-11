@@ -9,12 +9,6 @@ defineOptions({
     <p>
       Тестовая страница
     </p>
-
     <div />
   </div>
 </template>
-
-<route lang="yaml">
-  meta:
-    layout: main
-</route>

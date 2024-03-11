@@ -70,7 +70,7 @@ function go() {
         class="m-3 text-sm btn"
         @click="go"
       >
-        Go
+        Go 1
       </button>
     </div>
   </div>
@@ -78,5 +78,5 @@ function go() {
 
 <route lang="yaml">
 meta:
-  layout: main
+  layout: default
 </route>

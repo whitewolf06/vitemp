@@ -7,14 +7,13 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "paths": {
-      "~/*": ["src/*"]
+      "@/*": ["./src/*"]
     },
     "resolveJsonModule": true,
     "types": [
       "vite/client",
       "unplugin-vue-router/client",
-      "element-plus/global",
-      "vite-plugin-vue-layouts/client"
+      "element-plus/global"
     ],
     "allowJs": true,
     "strict": true,
