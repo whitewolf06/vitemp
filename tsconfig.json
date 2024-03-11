@@ -24,5 +24,5 @@
     "skipLibCheck": true
   },
 
-  "exclude": ["dist", "node_modules", "eslint.config.js"]
+  "exclude": ["dist", "node_modules", "eslint.config.js", "postcss.config.js"]
 }
